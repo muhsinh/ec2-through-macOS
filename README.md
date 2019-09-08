@@ -48,17 +48,17 @@
 ##### We now install AWS CLI (Command Line Interface):
  ``` pip install awscli  ```
  
-##### Now that we have the AWS CLI installed, we configure it:
+#### Now that we have the AWS CLI installed, we configure it:
  ``` sudo aws configure ```
-##### Remember that you will need your password again as  ``` sudo ``` runs as administrator 
+#### Remember that you will need your password again as  ``` sudo ``` runs as administrator 
 #
-##### When prompted, you type in the AWS Access Key ID, which will look something like "AKIAIOSFODNN7EXAMPLE"
+#### When prompted, you type in the AWS Access Key ID, which will look something like "AKIAIOSFODNN7EXAMPLE"
 #
-##### When prompted, you will type in the AWS Secret Access Key, which can differ in appearance, but looks something like  " JalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY " , or with ' + ' instead of ' / '
+#### When prompted, you will type in the AWS Secret Access Key, which can differ in appearance, but looks something like     " JalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY " 
 #
-##### When prompted, you will type in the region name, or availability zone, which is found in the AWS EC2 Dashboard, and will look something like " us-east-1 "
+#### When prompted, you will type in the region name, or availability zone, which is found in the AWS EC2 Dashboard, and will look something like " us-east-1 "
 #
-##### When prompted, type the output format you want to use: json, text, or table. I would reccomend table as it is more user friendly, although not programmatically useful.
+#### When prompted, type the output format you want to use: json, text, or table. I would reccomend table as it is more user friendly, although not programmatically useful.
 #
 ##### You have now configured AWS to connect to your instance
 ##### whether or not your instance is online or offline, you can see the status of it by typing in ```aws ec2 describe-instances``` Note the instance ID 
