@@ -1,0 +1,24 @@
+## DO ALL OF THIS ON TERMINAL
+
+curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
+
+sudo python get-pip.py
+
+sudo pip install requests
+
+pip install awscli
+
+sudo aws configure
+
+WS Access Key ID: ****************JE2A
+AWS Secret Access Key: ****************EwLs
+Default region name: us-west-2
+Default output format: table
+
+aws ec2 describe-instances
+
+aws ec2 start-instances --instance-ids i-*************ffda
+
+aws ec2 stop-instances --instance-ids i-*************ffda
+
+aws ec2 terminate-instances --instance-ids i-*************ffda
