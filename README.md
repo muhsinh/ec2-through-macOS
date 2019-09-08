@@ -64,6 +64,7 @@
 ##### whether or not your instance is online or offline, you can see the status of it by typing in ```aws ec2 describe-instances``` Note the instance ID 
 ##### You will see a similar page if you chose 'table' as the output format 
 <img width="691" alt="Screen Shot 2019-09-08 at 8 29 16 AM" src="https://user-images.githubusercontent.com/54153376/64490545-d1a4e600-d212-11e9-8a4e-36e485191c71.png">
+##### --This is the describe page for the instance that is NOT running; It will look different if your instance IS running
 
 ### Turn ON and OFF the Instance
 #### Now we will turn ON and OFF the EC2 Instance that we have connected to
