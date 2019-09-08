@@ -1,5 +1,5 @@
 # ec2-through-python
-## Starting and Stopping an ec2 instance using Python
+## Starting and Stopping an EC2 instance using Python
 
 
 
@@ -7,7 +7,7 @@
 
 
 
-### This is a full guide on starting and stopping an Amazon AWS Ec2 instance through terminal and a Python IDE
+### This is a full guide on starting and stopping an Amazon AWS EC2 instance through terminal 
 
 
 
