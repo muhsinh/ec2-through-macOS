@@ -25,7 +25,7 @@
 <img width="257" alt="Screen Shot 2019-09-08 at 7 49 55 AM" src="https://user-images.githubusercontent.com/54153376/64489946-4543f480-d20d-11e9-9c7e-6291d942cfe5.png">
   
   
-##### To be able to install the AWS command line interface on Terminal, one must download the pip script. Enter terminal, and curl the link: https://bootstrap.pypa.io/get-pip.py:
+##### To be able to install the AWS command line interface on Terminal, download the pip script. Enter terminal, and curl the link: https://bootstrap.pypa.io/get-pip.py:
    
   ```
   curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
